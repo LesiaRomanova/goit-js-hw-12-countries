@@ -1,0 +1,56 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  /*
+   * CSS image reference example.
+   */
+  background-image: url('./img/bg-pattern.png');
+}
+.search-form {
+  text-align: center;
+}
+.form_country {
+  display: flex;
+  justify-content: center;
+}
+
+.flag {
+  width: 350px;
+  height: 335px;
+}
+
+.text {
+  font-weight: bold;
+}
+
+.form-control {
+  font-size: 28px;
+  line-height: 1.2;
+  text-align: center;
+  margin: 40px;
+  width: 538px;
+}
+
+.listCountry {
+  font-size: 24px;
+  font-weight: bold;
+  max-width: 500px;
+  text-align: left;
+  margin: 0 auto;
+}
+.data-list {
+  text-align: left;
+}
+.tag-list__item {
+  font-size: 15px;
+  margin: 0 auto;
+  padding-top: 15px;
+}
